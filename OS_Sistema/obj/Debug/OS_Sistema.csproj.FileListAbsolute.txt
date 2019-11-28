@@ -1,0 +1,31 @@
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\bin\Debug\OS_Sistema.exe
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\bin\Debug\OS_Sistema.pdb
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.Login.resources
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.Properties.Resources.resources
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.csproj.GenerateResource.Cache
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.exe
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.pdb
+c:\users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.Inicio.resources
+C:\Users\tiago\documents\visual studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.CadCliente.resources
+C:\Users\tiago\Documents\Visual Studio 2012\Projects\OS_Sistema\OS_Sistema\bin\Debug\OS_Sistema.exe.config
+C:\Users\tiago\Documents\Visual Studio 2012\Projects\OS_Sistema\OS_Sistema\bin\Debug\MySql.Data.dll
+C:\Users\tiago\Documents\Visual Studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.Sobre.resources
+C:\Users\tiago\Documents\Visual Studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.CadOS.resources
+C:\Users\tiago\Documents\Visual Studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.BuscarCliente.resources
+C:\Users\tiago\Documents\Visual Studio 2012\Projects\OS_Sistema\OS_Sistema\obj\Debug\OS_Sistema.BuscarOs.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\bin\Debug\OS_Sistema.exe.config
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.exe
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.pdb
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\bin\Debug\OS_Sistema.exe
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\bin\Debug\OS_Sistema.pdb
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\bin\Debug\MySql.Data.dll
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.csprojResolveAssemblyReference.cache
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.BuscarCliente.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.BuscarOs.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.CadCliente.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.CadOS.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.Inicio.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.Login.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.Properties.Resources.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.Sobre.resources
+C:\Users\tiago\Documents\GIT\os_system\OS_Sistema\obj\Debug\OS_Sistema.csproj.GenerateResource.Cache
