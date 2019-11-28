@@ -28,10 +28,11 @@ namespace OS_Sistema
         //
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            ordem = new Ordem(Convert.ToInt16(txtNumOS.Text));
-            dados = ordem.buscarOrdem();
+            
             try
             {
+                ordem = new Ordem(Convert.ToInt16(txtNumOS.Text));
+                dados = ordem.buscarOrdem();
                 if (dados.Rows.Count > 0)
                 {
                     ativarCampos();

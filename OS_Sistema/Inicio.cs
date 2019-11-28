@@ -62,9 +62,5 @@ namespace OS_Sistema
             BuscarOs tela_BuscaOs = new BuscarOs();
             tela_BuscaOs.ShowDialog();
         }
-
-       
-
-    
     }
 }

@@ -43,6 +43,7 @@
             this.timerHora = new System.Windows.Forms.Timer(this.components);
             this.lblData = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imglist = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -179,6 +180,13 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // imglist
+            // 
+            this.imglist.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imglist.ImageStream")));
+            this.imglist.TransparentColor = System.Drawing.Color.Transparent;
+            this.imglist.Images.SetKeyName(0, "add_cliente.png");
+            this.imglist.Images.SetKeyName(1, "busca_cliente.png");
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,5 +231,6 @@
         private System.Windows.Forms.ToolStripMenuItem buscarOSToolStripMenuItem;
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ImageList imglist;
     }
 }

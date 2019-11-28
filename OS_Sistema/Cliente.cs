@@ -106,7 +106,7 @@ namespace OS_Sistema
         public DataTable buscarCPF()
         {
             conectar();
-            string sql = "SELECT * FROM clientes WHERE cpf = @cpf";
+            string sql = "SELECT * FROM clientes WHERE cpf LIKE @cpf";
             List<MySqlParameter> parametros = new List<MySqlParameter>();
             parametros.Add(new MySqlParameter("@cpf", cpf));
             DataTable dados = consulta(sql, parametros);

@@ -12,6 +12,7 @@ namespace OS_Sistema
 {
     public partial class CadOS : Form
     {
+        DataTable clientes;
         public CadOS()
         {
             InitializeComponent();
@@ -22,7 +23,7 @@ namespace OS_Sistema
             try
             {
                 Cliente all_cliente = new Cliente();
-                DataTable clientes = all_cliente.todosClientes();
+                clientes = all_cliente.todosClientes();
                 if (clientes.Rows.Count > 0)
                 {
                     cmbClientes.DataSource = clientes;
@@ -72,6 +73,7 @@ namespace OS_Sistema
                 MessageBox.Show("Erro ao Cadastrar", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-        }      
+        }
+     
     }
 }

@@ -35,26 +35,36 @@ namespace OS_Sistema
             string cpf = mskCpf.Text;
             cli = new Cliente(cpf);
             dados = cli.buscarCPF();
-            if (dados.Rows.Count > 0)
+            try
             {
-                string[] endereco = dados.Rows[0]["rua"].ToString().Split('-');
-                txtCliente.Text = dados.Rows[0]["nome"].ToString();
-                mskTel.Text = dados.Rows[0]["telefone"].ToString();
-                mskCel.Text = dados.Rows[0]["celular"].ToString();
-                txtRua.Text = endereco[0];
-                txtNum.Text = endereco[1];
-                txtBairro.Text = dados.Rows[0]["bairro"].ToString();
-                txtCidade.Text = dados.Rows[0]["cidade"].ToString();
-                cmbEstado.Text = dados.Rows[0]["estado"].ToString();
-                mskCEP.Text = dados.Rows[0]["CEP"].ToString();
-                ativaItens();
-                btnBuscar.Enabled = !btnBuscar.Enabled;
+                Ordem ord = new Ordem();
+                DataTable all_ordem = ord.todasOrdensCliente(Convert.ToInt16(dados.Rows[0]["id"]));
+                dgvOrdem.DataSource = all_ordem;
+                if (dados.Rows.Count > 0)
+                {
+                    string[] endereco = dados.Rows[0]["rua"].ToString().Split('-');
+                    txtCliente.Text = dados.Rows[0]["nome"].ToString();
+                    mskTel.Text = dados.Rows[0]["telefone"].ToString();
+                    mskCel.Text = dados.Rows[0]["celular"].ToString();
+                    txtRua.Text = endereco[0];
+                    txtNum.Text = endereco[1];
+                    txtBairro.Text = dados.Rows[0]["bairro"].ToString();
+                    txtCidade.Text = dados.Rows[0]["cidade"].ToString();
+                    cmbEstado.Text = dados.Rows[0]["estado"].ToString();
+                    mskCEP.Text = dados.Rows[0]["CEP"].ToString();
+                    ativaItens();
+                    btnBuscar.Enabled = !btnBuscar.Enabled;
+                }
+                else
+                {
+                    MessageBox.Show("Não existe registros com esse CPF", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            else
+            catch (Exception erro)
             {
-                MessageBox.Show("Não existe registros com esse CPF", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Console.WriteLine(""+erro);
+                MessageBox.Show("Não foi possivel conectar com o Server", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
         //
         //BOTÃO ALTERAR

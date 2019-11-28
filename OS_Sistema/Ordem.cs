@@ -81,6 +81,18 @@ namespace OS_Sistema
             desconectar();
             return retorno;
         }
+        public DataTable todasOrdensCliente(int id_cliente)
+        {
+            conectar();
+            string sql = "SELECT * FROM ordem WHERE id_cliente = @id_cliente";
+            List<MySqlParameter> parametros = new List<MySqlParameter>();
+            parametros.Add(new MySqlParameter("@id_cliente", id_cliente));
+            DataTable dados = consulta(sql, parametros);
+            desconectar();
+            return dados;
+        }
+
+
         //
         //BUSCANDO ORDEM DE SERVIÇO PELO ID
         //
